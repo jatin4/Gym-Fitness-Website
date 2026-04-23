@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Fitness Website - README</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #1c1c1c;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h1, h2 {
+            color: #00ff88;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #333;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin: 5px;
+        }
+
+        code {
+            background: #000;
+            padding: 5px;
+            border-radius: 5px;
+            display: block;
+            margin: 10px 0;
+        }
+
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🏋️ Gym Fitness Website</h1>
+
+    <div>
+        <span class="badge">HTML5</span>
+        <span class="badge">CSS3</span>
+        <span class="badge">JavaScript</span>
+        <span class="badge">Project Completed</span>
+    </div>
+
+    <h2>📌 Project Overview</h2>
+    <p>
+        This Gym Fitness Website is a responsive and modern web project designed to promote fitness services,
+        workouts, and membership plans with a clean user interface.
+    </p>
+
+    <h2>🌟 Features</h2>
+    <ul>
+        <li>Home page with modern UI</li>
+        <li>Workout and training sections</li>
+        <li>Trainer profiles</li>
+        <li>Membership plans</li>
+        <li>Contact form</li>
+        <li>Responsive design</li>
+    </ul>
+
+    <h2>🛠️ Technologies Used</h2>
+    <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h2>📂 Project Structure</h2>
+    <code>
+Gym-Fitness-Website/
+index.html
+style.css
+script.js
+/images
+/assets
+    </code>
+
+    <h2>🎯 Objectives</h2>
+    <ul>
+        <li>Build a responsive fitness website</li>
+        <li>Improve front-end skills</li>
+        <li>Create clean UI design</li>
+    </ul>
+
+    <h2>🔥 Key Highlights</h2>
+    <ul>
+        <li>Beginner-friendly project</li>
+        <li>Fast loading</li>
+        <li>Mobile responsive</li>
+        <li>Interactive UI</li>
+    </ul>
+
+    <h2>⚙️ How to Use</h2>
+    <p>Download the project and open <b>index.html</b> in your browser.</p>
+
+    <h2>💡 Future Improvements</h2>
+    <ul>
+        <li>Add login/signup system</li>
+        <li>Backend integration</li>
+        <li>Online payment system</li>
+    </ul>
+
+    <h2>👨‍💻 Author</h2>
+    <p>Jatin <br> UID: 25BCD10214</p>
+
+    <footer>
+        <p>© 2026 Gym Fitness Project | For Educational Use</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
