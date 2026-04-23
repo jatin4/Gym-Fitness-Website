@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gym Fitness</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #111;
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: black;
+    position: sticky;
+    top: 0;
+}
+
+nav h1 {
+    color: #00ff88;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    background: url('https://images.unsplash.com/photo-1554284126-aa88f22d8b74') no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 50px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background: #00ff88;
+    border: none;
+    cursor: pointer;
+}
+
+/* SERVICES */
+.services {
+    padding: 50px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #222;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* TRAINERS */
+.trainers {
+    padding: 50px;
+    text-align: center;
+}
+
+.trainer-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.trainer {
+    background: #222;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* CONTACT */
+.contact {
+    padding: 50px;
+    text-align: center;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    background: #00ff88;
+    border: none;
+    padding: 10px 20px;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    padding: 20px;
+    text-align: center;
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px) {
+    .hero h2 {
+        font-size: 30px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h1>FitGym</h1>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#trainers">Trainers</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div>
+        <h2>Build Your Dream Body</h2>
+        <p>Join the best gym in your city</p>
+        <button onclick="joinNow()">Join Now</button>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="cards">
+        <div class="card">💪 Weight Training</div>
+        <div class="card">🏃 Cardio Training</div>
+        <div class="card">🧘 Yoga Classes</div>
+    </div>
+</section>
+
+<!-- TRAINERS -->
+<section id="trainers" class="trainers">
+    <h2>Our Trainers</h2>
+    <div class="trainer-box">
+        <div class="trainer">Trainer 1</div>
+        <div class="trainer">Trainer 2</div>
+        <div class="trainer">Trainer 3</div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <input type="text" placeholder="Your Name"><br>
+    <input type="email" placeholder="Your Email"><br>
+    <textarea placeholder="Message"></textarea><br>
+    <button onclick="submitForm()">Submit</button>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 FitGym | All Rights Reserved</p>
+</footer>
+
+<script>
+function joinNow() {
+    alert("Welcome to FitGym!");
+}
+
+function submitForm() {
+    alert("Form Submitted!");
+}
+</script>
+
+</body>
+</html>
